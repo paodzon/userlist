@@ -1,0 +1,16 @@
+.users__container{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.users__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.users__button {
+  align-self: center;
+}
