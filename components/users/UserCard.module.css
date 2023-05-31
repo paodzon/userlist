@@ -1,12 +1,12 @@
 .card{
+  padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   flex: 25%;
-  gap: 40px;
-  border: 1px solid lightgray;
+  gap: 10px;
   border-radius: 10px;
-  padding: 30px;
+  border: 1px solid lightgray;
 }
 
 .card__details{
@@ -18,4 +18,5 @@
 
 .card__image {
   border-radius: 50%;
+  object-fit: cover;
 }
